@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<div style="display: block;" id="login-card">
+    <h1>Welcome Back</h1>
+    <p>Login to FinTack Pro</p>
+    <form id="login_form">
+        <label for="user_name">Username</label>
+        <input id="login_name" type="text"><br>
+        <label for="pass">Password</label>
+        <input id="login_pass" type="password"><br>
+        <button>Login</button>
+    </form>
+    <p>Don't have an account? <a id="reg-anchor" href="">Register here</a></p>
+
+</div>
+<div style="display: none;" id="register-card">
+    <h1>Create Account</h1>
+    <p>Join FinTack Pro</p>
+    <form id="register-form" >
+        <label for="user_name">Choose a Username</label>
+        <input id="register_name" type="text"><br>
+        <label for="pass">Password</label>
+        <input id="reg_pass" type="password"><br>
+        <button>Register</button>
+    </form>
+    <p>Already have an account <a id="login-anchor" href="">Login here</a></p>
+</div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

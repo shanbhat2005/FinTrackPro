@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-card {
+    display: block;
+    background: #fff;
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    width: 380px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+}
+
+#login-card h1 {
+    text-align: center;
+    font-size: 22px;
+    color: #111;
+    margin-bottom: 6px;
+}
+
+#login-card > p {
+    text-align: center;
+    color: #c07a2a;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+}
+
+#login-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-card label {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 6px;
+}
+
+#login-card input {
+    padding: 10px 12px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+#login-card button {
+    padding: 12px;
+    background: #1a56c4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 1.25rem;
+}
+
+#login-card p a{
+    color:rgb(56, 56, 214)
+}
+
+#register-card {
+    display: none;
+    background: #fff;
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    width: 380px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+}
+
+#register-card h1 {
+    text-align: center;
+    font-size: 22px;
+    color: #111;
+    margin-bottom: 6px;
+}
+
+#register-card > p {
+    text-align: center;
+    color: #c07a2a;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+}
+
+#register-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+#register-card label {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 6px;
+}
+
+#register-card input {
+    padding: 10px 12px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+#register-card button {
+    padding: 12px;
+    background: #1a56c4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 1.25rem;
+}
+
+#register-card p a{
+    color:rgb(56, 56, 214)
+}
