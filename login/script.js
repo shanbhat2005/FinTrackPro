@@ -81,7 +81,7 @@ if(username===data.username &&password===data.password){
     if(isUser===true){
 alert("we are Logging you in")
 localStorage.setItem("loggedInUser",JSON.stringify(username))
-window.location.href="../home_page/dashboard.html";
+window.location.href = "home_page/index.html";
 }else{
     alert("register first")
 }

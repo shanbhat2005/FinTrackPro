@@ -2,7 +2,7 @@ let loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
 
 if (!loggedInUser) {
     alert("User not logged in");
-    window.location.href = "../login/index.html";
+    window.location.href = "../index.html";
 }
 let chartCanvas = document.getElementById("cashFlowChart");
 let cashFlowChart
@@ -60,7 +60,7 @@ logOutBtn.addEventListener("click", () => {
     logOutBtn.style.border = "1px solid white";
 
     localStorage.removeItem("loggedInUser");
-    window.location.href = "../login/index.html";
+    window.location.href = "../index.html";
 });
 
 transactionForm.addEventListener("submit", (e) => {
